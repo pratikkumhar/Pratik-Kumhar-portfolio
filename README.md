@@ -1,2 +1,2 @@
-hello pk here,
-trying to learn git and gtihub
+Hello Pratik Kumhar here,
+trying to learn web development.
