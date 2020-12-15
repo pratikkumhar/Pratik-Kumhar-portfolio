@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+:root{
+    --pri-color : #EF4444;
+    --text-color: #282360;
+
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+
+.cont{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contf{
+    max-width: 600px;
+    margin: auto;
+     
+}
+.link1{
+    background-color:var(--pri-color);
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+}
+
+.link2{
+
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border: 2px solid;
+    border-color: var(--pri-color) ;
+    border-radius: 0.5rem;
+    color:var(--pri-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.nav-edit{
+    background-color: var(--pri-color);
+    color:var(--text-color);
+    font-weight: bold;
+    padding-top: 1rem;
+    border-style: outset;
+    border-color: var(--text-color);
+    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-width: 0.5rem;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color:var(--text-color);
+}
+
+.nav-list-edit{
+    text-align: right;
+    padding-bottom:1rem;
+
+}
+
+.nav-edit .nav-name{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-head{
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+    color:var(--text-color);
+}
+.hero .hero-head .head-color{
+    color: var(--pri-color);
+}
+
+
+
+/* .section-sect1{
+  padding: 1.5rem;
+}
+.section-sect1 .sect1-head1{
+    text-align: center;
+}
+.section-sect1 .sect1-para{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+} */
+
+.section-sect2{
+    background-color: rgb(185, 185, 185);
+    padding: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+/* .section-sect2 .sect2-head2{
+    text-align: center;
+} */
+.section-sect2 .sect2-para{
+    padding-bottom: 1.5rem;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.section-sect3{
+    background-color: rgb(214, 214, 214);
+    padding: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+/* .section-sect3 .sect3-head3{
+    text-align: center;
+} */
+.section-sect3 .sect3-para{
+    padding-bottom: 1.5rem  ;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--pri-color);
+    padding: 1.5rem;
+    color: var(--text-color);
+    font-weight: bold;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-style:groove;
+}
+
+
+
+.footer-list{
+    padding: 0.5rem;
+    padding-inline-start: 0px;
+}
+.footer-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
