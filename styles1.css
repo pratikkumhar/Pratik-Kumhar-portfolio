@@ -147,19 +147,24 @@ body{
     background-color: var(--pri-color);
     padding: 1.5rem;
     color: var(--text-color);
-    font-weight: bold;
     border-top-left-radius: 0.4rem;
     border-top-right-radius: 0.4rem;
     border-style:groove;
 }
 
+.footer .footer-head{
+    font-weight:bolder;
+    font-size: 1.5rem;
 
+}
 
 .footer-list{
+    font-weight: bold;
     padding: 0.5rem;
     padding-inline-start: 0px;
 }
 .footer-link{
+
     text-decoration: none;
     color: var(--text-color);
 }
