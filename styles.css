@@ -122,6 +122,9 @@ body{
     padding: 1.5rem;
     color: var(--text-color);
     font-weight: bold;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-style:groove;
 }
 
 
