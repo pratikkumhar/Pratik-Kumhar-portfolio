@@ -1,2 +1,1 @@
-Hello Pratik Kumhar here,
-trying to learn web development.
+Hello Pratik Kumhar here, Self scripted/coded portfolio website.
