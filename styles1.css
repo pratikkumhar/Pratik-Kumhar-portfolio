@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+:root{
+    --pri-color : #ff5757;
+    --text-color: #282360;
+
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+
+.cont{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contf{
+    max-width: 600px;
+    margin: auto;
+     
+}
+.link1{
+    border-style: none;
+    background-color:var(--pri-color);
+    text-decoration: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+}
+
+.link2{
+
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border: 2px solid;
+    border-color: var(--pri-color) ;
+    border-radius: 0.5rem;
+    color:var(--pri-color);
+}
+
+.link3{
+    border-style: none;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:var(--pri-color);
+    text-decoration: none;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+}
+
+.link4{
+    border-style: none;
+    background-color:var(--pri-color);
+    text-decoration: none;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.nav-edit{
+    background: rgba(63, 94, 251, 0.795);
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.774) 0%, rgba(125, 86, 203, 0.801) 33%, rgba(252, 70, 106, 0.815) 100%); 
+    color:var(--text-color);
+    font-weight: bold;
+    padding-top: 1rem;
+    border-style: outset;
+    
+    border-color: rgba(148, 188, 233, 0.349);
+    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-width: 0.5rem;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color:var(--text-color);
+}
+.nav-link-active{
+    color: pink;
+}
+
+.nav-list-edit{
+    text-align: right;
+    padding-bottom:1rem;
+
+}
+
+.nav-edit .nav-name{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-head{
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+    color:var(--text-color);
+}
+.hero .hero-head .head-color{
+    color: var(--pri-color);
+}
+
+
+
+/* .section-sect1{
+  padding: 1.5rem;
+}
+.section-sect1 .sect1-head1{
+    text-align: center;
+}
+.section-sect1 .sect1-para{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+} */
+
+.section-sect2{
+    background: rgb(255,198,223);
+background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(148,187,233,1) 100%); 
+    padding: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+/* .section-sect2 .sect2-head2{
+    text-align: center;
+} */
+.section-sect2 .sect2-para{
+    padding-bottom: 1.5rem;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.section-sect3{
+    background: rgb(255,198,223);
+    background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(148,187,233,1) 100%); 
+    padding: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+/* .section-sect3 .sect3-head3{
+    text-align: center;
+} */
+.section-sect3 .sect3-para{
+    padding-bottom: 1.5rem  ;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.section-sect4{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    padding: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background: rgb(255,198,223);
+    background: radial-gradient(circle, rgba(255,198,223,0.603988603988604) 0%, rgba(204,193,228,1) 0%, rgba(158,188,232,1) 35%, rgba(148,187,233,0.8492530801383054) 100%);  
+    padding: 1.5rem;
+    color: var(--text-color);
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-style:groove;
+    border-color: rgba(148, 188, 233, 0.349);
+    position: absolute;
+    width: 100%;
+}
+
+.footer .footer-head{
+    font-weight:bolder;
+    font-size: 1.5rem;
+
+}
+
+.footer-list{
+    font-weight: bold;
+    padding: 0.5rem;
+    padding-inline-start: 0px;
+}
+.footer-link{
+
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.blog-head{
+    margin: 0px;
+}
