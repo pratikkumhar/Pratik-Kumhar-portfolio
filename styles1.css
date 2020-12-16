@@ -188,9 +188,8 @@ background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(
     border-top-right-radius: 0.4rem;
     border-style:groove;
     border-color: rgba(148, 188, 233, 0.349);
-    position: absolute;
-    width: 100%;
-}
+    
+};
 
 .footer .footer-head{
     font-weight:bolder;
