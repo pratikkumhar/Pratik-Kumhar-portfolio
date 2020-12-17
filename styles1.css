@@ -25,7 +25,7 @@ body{
     border-style: none;
     background-color:var(--pri-color);
     text-decoration: none;
-    padding: 0.25rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 0.5rem;
     color: var(--text-color);
 }
@@ -33,7 +33,7 @@ body{
 .link2{
 
     text-decoration: none;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     border: 2px solid;
     border-color: var(--pri-color) ;
     border-radius: 0.5rem;
