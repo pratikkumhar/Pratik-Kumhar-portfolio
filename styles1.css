@@ -161,10 +161,17 @@ background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(
     color: var(--text-color);
     text-align: center;
 }
-/* .section-sect3 .sect3-head3{
+ .section-sect4 .sect3-head3{
     text-align: center;
-} */
+}
 .section-sect3 .sect3-para{
+    padding-bottom: 1.5rem  ;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.section-sect3 .sect4-para{
+    text-align: left;
     padding-bottom: 1.5rem  ;
     max-width: 500px;
     margin: auto;
@@ -174,7 +181,15 @@ background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(
 .section-sect4{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
-    padding: 1.5rem;
+    padding: 1.5rem 30rem ;
+    color: var(--text-color);
+    
+}
+
+.section-sect5{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    padding: 1.5rem 30rem ;
     color: var(--text-color);
     text-align: center;
 }
