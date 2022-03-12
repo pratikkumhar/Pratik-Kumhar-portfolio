@@ -71,8 +71,8 @@ body{
 }
 
 .nav-edit{
-    background: rgba(63, 94, 251, 0.795);
-    background: radial-gradient(circle, rgba(63, 94, 251, 0.774) 0%, rgba(125, 86, 203, 0.801) 33%, rgba(252, 70, 106, 0.815) 100%); 
+    background: rgb(255,198,223);
+    background: radial-gradient(circle, rgba(255,198,223,0.603988603988604) 0%, rgba(204,193,228,1) 0%, rgba(158,188,232,1) 35%, rgba(148,187,233,0.8492530801383054) 100%);  
     color:var(--text-color);
     font-weight: bold;
     padding-top: 1rem;
@@ -90,7 +90,7 @@ body{
     color:var(--text-color);
 }
 .nav-link-active{
-    color: pink;
+    color: rgb(255, 14, 54);
 }
 
 .nav-list-edit{
@@ -139,7 +139,7 @@ body{
 
 .section-sect2{
     background: rgb(255,198,223);
-background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(148,187,233,1) 100%); 
+    background: radial-gradient(circle, rgba(255,198,223,0.603988603988604) 0%, rgba(204,193,228,1) 0%, rgba(158,188,232,1) 35%, rgba(148,187,233,0.8492530801383054) 100%); 
     padding: 1.5rem;
     color: var(--text-color);
     text-align: center;
@@ -156,7 +156,7 @@ background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(
 
 .section-sect3{
     background: rgb(255,198,223);
-    background: linear-gradient(90deg, rgba(255,198,223,0.603988603988604) 0%, rgba(148,187,233,1) 100%); 
+    background: radial-gradient(circle, rgba(255,198,223,0.603988603988604) 0%, rgba(204,193,228,1) 0%, rgba(158,188,232,1) 35%, rgba(148,187,233,0.8492530801383054) 100%); 
     padding: 1.5rem;
     color: var(--text-color);
     text-align: center;
